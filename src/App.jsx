@@ -40,7 +40,6 @@ function App() {
       setDice( oldDice => oldDice.map(die=>
         die.isHeld ? die : generateNewDie()
       ))
-      console.log(dice)
     }
     else{
       setDice(allNewDice())
